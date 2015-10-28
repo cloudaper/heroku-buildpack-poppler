@@ -51,4 +51,4 @@ echo "-----> Adding Poppler binaries to path"
 PROFILE_PATH="$BUILD_DIR/.profile.d/poppler.sh"
 mkdir -p $(dirname $PROFILE_PATH)
 
-echo 'export PATH="$HOME/vendor/poppler/poppler-${VERSION}/utils:$PATH"' >> $PROFILE_PATH
+echo 'export PATH="$HOME/vendor/poppler/poppler-'$VERSION'/utils:$PATH"' >> $PROFILE_PATH
